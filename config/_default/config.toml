@@ -1,10 +1,8 @@
-baseURL = "https://www.morling.dev/"
+baseURL = "https://www.dos4dev.com/"
 languageCode = "en-us"
 title = "Oleksii Danyliuk"
 theme = "ezhil"
 copyright = "© 2021 Oleksii Danyliuk"
-disqusShortname = "morlingdev"
-googleAnalytics = "UA-156032495-1"
 
 
 [params]
