@@ -5,11 +5,6 @@ draft: false
 type: "page"
 ---
 
-I am an open-source software engineer, currently working for Red Hat, where I am leading the Debezium project, a platform for change data capture.
-
-I have been a long-time committer to multiple link:/projects[open-source projects], including Hibernate, MapStruct and Deptective;
-I also serve as the spec lead for Bean Validation 2.0 (first at the JCP, now under the Jakarta EE umbrella at the Eclipse Foundation).
-
-Named a https://apex.oracle.com/pls/apex/f?p=19297:3::::::[Java Champion], I'm regularly link:/conferences[speaking] at conferences such as QCon, JavaOne, Red Hat Summit, JavaZone, JavaLand and Kafka Summit.
-
-Occasionally, I link:/blog[blog] about topics related to software engineering.
+I am a web developer, with a passion for a digital society. Society, where you have to take care of your ID card, phone, laptop and that’s it. 
+I am a committer to https://github.com/nordic-institute/X-Road[`X-Road`] project, the core of the digital society. 
+Occasionally, I link:/blog[blog] about topics related to my passion.
