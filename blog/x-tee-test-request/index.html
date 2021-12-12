@@ -1,0 +1,216 @@
+<!doctype html><html>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge"><title>X-Tee test request. - Oleksii Danyliuk</title><meta name=viewport content="width=device-width,initial-scale=1">
+<meta property="og:title" content="X-Tee test request.">
+<meta property="og:description" content=":source-highlighter: rouge :rouge-style: base16.dark :icons: font :imagesdir: /images ifdef::env-github[] :imagesdir: ../../static/images endif::[]
+image::security-services-statistic.png[security-services-statistic]
+I am sure you have recognized that https://x-tee.ee/dashboard[`X-Tee`] has one more security server (SS), and yes, this is one I have launched.
+I want to share with you a few moments that took me a bit of time to understand.
+I assume that you already have installed, registered SS and some data provider expose for you endpoints. This part described in the https://github.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.dos4dev.com/blog/x-tee-test-request/"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2021-12-11T10:00:00+01:00">
+<meta property="article:modified_time" content="2021-12-11T10:00:00+01:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="X-Tee test request.">
+<meta name=twitter:description content=":source-highlighter: rouge :rouge-style: base16.dark :icons: font :imagesdir: /images ifdef::env-github[] :imagesdir: ../../static/images endif::[]
+image::security-services-statistic.png[security-services-statistic]
+I am sure you have recognized that https://x-tee.ee/dashboard[`X-Tee`] has one more security server (SS), and yes, this is one I have launched.
+I want to share with you a few moments that took me a bit of time to understand.
+I assume that you already have installed, registered SS and some data provider expose for you endpoints. This part described in the https://github.">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel=stylesheet>
+<link rel=stylesheet type=text/css href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css>
+<link rel=stylesheet type=text/css media=screen href=https://www.dos4dev.com/css/normalize.css>
+<link rel=stylesheet type=text/css media=screen href=https://www.dos4dev.com/css/main.css>
+<link rel=stylesheet type=text/css href=https://www.dos4dev.com/css/base16.dark.css>
+<link rel=stylesheet type=text/css href=https://www.dos4dev.com/css/morlingdev.css>
+<script>const searchUrl="https://search.gunnar-morling.workers.dev/Prod/",apiKey="ff90d45f4afad3bd914c"</script>
+<script src=https://www.dos4dev.com//js/main.js></script>
+<script src=https://www.dos4dev.com//js/medium-zoom.min.js></script>
+<noscript>
+<style type=text/css>.club{display:none}</style>
+</noscript>
+</head>
+<body>
+<div class="container wrapper post">
+<div class="header desktop">
+<div class=row>
+<div class=header-image-container>
+<img class=header-image src=/images/oleksii_danyliuk.jpeg alt="Oleksii Danyliuk">
+</div>
+<div class=fill>
+<h1 class=site-title><a href=https://www.dos4dev.com/>Oleksii Danyliuk</a></h1>
+<div class=site-description><h2>Thoughts on digital society and related things.</h2></div>
+<nav class="row pre-nav">
+<div class=pull-right>
+<ul class=flat><li>
+<a href=https://github.com/Dos4dev title=GitHub><svg width="17" height="17" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use xlink:href="/svg/feather-sprite.svg#github"/></svg>
+</a>
+</li><li>
+<a href=https://twitter.com/Dos4dev title=Twitter><svg width="17" height="17" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use xlink:href="/svg/feather-sprite.svg#twitter"/></svg>
+</a>
+</li><li>
+<a href=https://stackoverflow.com/users/9183844/dos4dev title=Stackoverflow><svg width="17" height="17" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use xlink:href="/svg/feather-sprite.svg#align-justify"/></svg>
+</a>
+</li><li>
+<a href=https://www.hackerrank.com/dos4dev title=Hackerrank><svg width="17" height="17" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use xlink:href="/svg/feather-sprite.svg#zap"/></svg>
+</a>
+</li></ul>
+</div>
+</nav>
+<nav class="row nav">
+<div>
+<ul class=flat>
+<li>
+<a href=/>Blog</a>
+</li>
+<li>
+<a href=/about/>About</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+<div class="header mobile">
+<div class=row>
+<div class=header-image-container>
+<img class=header-image src=/images/oleksii_danyliuk.jpeg alt="Oleksii Danyliuk">
+</div>
+<div class=fill>
+<h1 class=site-title><a href=https://www.dos4dev.com/>Oleksii Danyliuk</a></h1>
+<div class=site-description><h2>Thoughts on digital society and related things.</h2></div>
+</div>
+</div>
+<div>
+<div>
+<nav class="row pre-nav">
+<div class=pull-right>
+<ul class=flat><li>
+<a href=https://github.com/Dos4dev title=GitHub><svg width="17" height="17" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use xlink:href="/svg/feather-sprite.svg#github"/></svg>
+</a>
+</li><li>
+<a href=https://twitter.com/Dos4dev title=Twitter><svg width="17" height="17" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use xlink:href="/svg/feather-sprite.svg#twitter"/></svg>
+</a>
+</li><li>
+<a href=https://stackoverflow.com/users/9183844/dos4dev title=Stackoverflow><svg width="17" height="17" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use xlink:href="/svg/feather-sprite.svg#align-justify"/></svg>
+</a>
+</li><li>
+<a href=https://www.hackerrank.com/dos4dev title=Hackerrank><svg width="17" height="17" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use xlink:href="/svg/feather-sprite.svg#zap"/></svg>
+</a>
+</li></ul>
+</div>
+</nav>
+<nav class="row nav">
+<div>
+<ul class=flat>
+<li>
+<a href=/>Blog</a>
+</li>
+<li>
+<a href=/about/>About</a>
+</li>
+</ul>
+</div>
+<div class=pull-right>
+<div class=club>
+<form id=myFormMobile>
+<input type=text id=inputSearchMobile name=q placeholder=Search... onfocus=warmUp(this)>
+<button type=submit id=buttonSubmitSearchMobile style=line-height:normal><i id=iconSearchMobile class="fa fa-search"></i></button>
+</form>
+</div>
+</div>
+</nav>
+</div>
+</div>
+</div>
+<script type=text/javascript>window.addEventListener("load",function(){const c=new URLSearchParams(window.location.search),a=document.getElementById("myForm");a.addEventListener("submit",function(b){b.preventDefault(),sendData(new FormData(a))});const b=document.getElementById("myFormMobile");b.addEventListener("submit",function(a){a.preventDefault(),sendData(new FormData(b))})})</script>
+<div id=main-content>
+<div class=post-header>
+<h1 class=title>X-Tee test request.</h1>
+<div class=meta>Posted at Dec 11, 2021</div>
+</div>
+<div class=markdown>
+<p>:source-highlighter: rouge
+:rouge-style: base16.dark
+:icons: font
+:imagesdir: /images
+ifdef::env-github[]
+:imagesdir: ../../static/images
+endif::[]</p>
+<p>image::security-services-statistic.png[security-services-statistic]</p>
+<p>I am sure you have recognized that <a href=https://x-tee.ee/dashboard%5B%60X-Tee%60%5D>https://x-tee.ee/dashboard[`X-Tee`]</a> has one more security server (SS), and yes, this is one I have launched.</p>
+<p>I want to share with you a few moments that took me a bit of time to understand.</p>
+<p>I assume that you already have installed, registered SS and some data provider expose for you endpoints. This part described in the <a href=https://github.com/nordic-institute/X-Road/blob/develop/doc/Manuals/ig-ss_x-road_v6_security_server_installation_guide.md%5B%60documentation%60%5D>https://github.com/nordic-institute/X-Road/blob/develop/doc/Manuals/ig-ss_x-road_v6_security_server_installation_guide.md[`documentation`]</a>,
+but one moment documentation of X-Road slightly different comparing with Estonian government <a href=https://x-tee.ee/docs%5B%60documentation%60%5D>https://x-tee.ee/docs[`documentation`]</a>. <a href=https://abi.ria.ee/xtee/en/turvaserveri-haldus/turvaserveri-paigaldamine%5B%60Third>https://abi.ria.ee/xtee/en/turvaserveri-haldus/turvaserveri-paigaldamine[`Third</a> documentation<code>], and the last but not least the government https://abi.ria.ee/xtee/files/en/12091395/19333123/1/1614085296736/The_data_exchange_layer_of_information_systems_regulation.pdf[</code>act<code>]. Research base on https://digikogu.taltech.ee/et/Download/dd3cc961-f8d4-453c-ae27-a17b13971292[</code>E-shop`]</p>
+<p>I had two problems with before I made first test request.</p>
+<p>The first, my SS didn&rsquo;t listen to the public 80 port. I was able to reach the application only via localhost:80.</p>
+<p>The second one is how to properly configure the SOAP request.</p>
+<p>The first problem can be fixed easily.
+Need to override <a href=https://github.com/nordic-institute/X-Road/blob/develop/doc/Manuals/ug-syspar_x-road_v6_system_parameters.md%5B%60proxy.connector-host%60%5D>https://github.com/nordic-institute/X-Road/blob/develop/doc/Manuals/ug-syspar_x-road_v6_system_parameters.md[`proxy.connector-host`]</a> value and restart the server <code>systemctl restart xroad-proxy.service</code>.</p>
+<p>Voila, now your SS is listening public ports and you can start to make test request:</p>
+<p><code>curl -d @request.xml --header "Content-Type: text/xml" -X POST http://my-security-server | xmlstarlet format</code></p>
+<p>Here you can see an example of request body.</p>
+<pre tabindex=0><code>&lt;SOAP-ENV:Envelope xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:id=&quot;http://x-road.eu/xsd/identifiers&quot; xmlns:xrd=&quot;http://x-road.eu/xsd/xroad.xsd&quot;&gt;
+    &lt;SOAP-ENV:Header&gt;
+        &lt;xrd:client id:objectType=&quot;SUBSYSTEM&quot;&gt;
+            &lt;id:xRoadInstance&gt;ee-dev&lt;/id:xRoadInstance&gt;
+            &lt;id:memberClass&gt;COM&lt;/id:memberClass&gt;
+            &lt;id:memberCode&gt;1234567&lt;/id:memberCode&gt;
+            &lt;id:subsystemCode&gt;subSystem&lt;/id:subsystemCode&gt;
+        &lt;/xrd:client&gt;
+        &lt;xrd:service id:objectType=&quot;SERVICE&quot;&gt;
+            &lt;id:xRoadInstance&gt;ee-dev&lt;/id:xRoadInstance&gt;
+            &lt;id:memberClass&gt;GOV&lt;/id:memberClass&gt;
+            &lt;id:memberCode&gt;70000310&lt;/id:memberCode&gt;
+            &lt;id:subsystemCode&gt;arireg&lt;/id:subsystemCode&gt;
+            &lt;id:serviceCode&gt;nimeSobivus_v1&lt;/id:serviceCode&gt;
+            &lt;id:serviceVersion&gt;v1&lt;/id:serviceVersion&gt;
+        &lt;/xrd:service&gt;
+        &lt;xrd:userId&gt;test&lt;/xrd:userId&gt;
+        &lt;xrd:id&gt;0ba036ea-d612-4e74-bf73-59a6f15627c8&lt;/xrd:id&gt;
+        &lt;xrd:protocolVersion&gt;4.0&lt;/xrd:protocolVersion&gt;
+    &lt;/SOAP-ENV:Header&gt;
+    &lt;SOAP-ENV:Body&gt;
+        &lt;test:nimeSobivus_v1 xmlns:test=&quot;http://arireg.x-road.eu/producer/&quot;&gt;
+            &lt;test:keha&gt;
+                &lt;test:nimi&gt;test&lt;/test:nimi&gt;
+                &lt;test:tapsusklass&gt;1&lt;/test:tapsusklass&gt;
+                &lt;test:keel&gt;eng&lt;/test:keel&gt;
+            &lt;/test:keha&gt;
+        &lt;/test:nimeSobivus_v1&gt;
+    &lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;
+</code></pre><p>There you can see how X-Road community helps me to the define proper configuration of the SOAP request.<br>
+<a href=https://jointxroad.slack.com/archives/CA66FG50T/p1635326519016400%5B%60link>https://jointxroad.slack.com/archives/CA66FG50T/p1635326519016400[`link</a> to the slack conversation`]</p>
+<p>A couple of important moments. Yes, you can use HTTP protocol for test requests, but only for test environment.</p>
+<p>Keep in mind, you have to use TLS connection and close public access to 80 and 443 ports.</p>
+<p>Additional fact about X-Tee:</p>
+<p>Whole infrastructure has tree environment:</p>
+<ul>
+<li>Test</li>
+<li>Development</li>
+<li>Production</li>
+</ul>
+<p>Test and development env are the same and for each environment you have to have separate SS.</p>
+<p>P.S. Happy distributed coding.
+Many thanks for to the wonderful X-Road community and Estonian government auhtorities <a href=https://www.ria.ee/en.html%5B%60RIA%60%5D>https://www.ria.ee/en.html[`RIA`]</a> and <a href=https://www.rik.ee/en%5B%60RIK%60%5D>https://www.rik.ee/en[`RIK`]</a>.</p>
+<p>image::https://i.pinimg.com/originals/8c/91/af/8c91af5c569317bc6251cf8b8cfadbab.png[]</p>
+</div>
+<div class=post-tags>
+</div>
+</div><div id=disqus_thread>
+<script src=https://giscus.app/client.js data-repo=gunnarmorling/discussions.morling.dev data-repo-id=R_kgDOGXzqNQ data-category=Announcements data-category-id=DIC_kwDOGXzqNc4B_2Pq data-mapping=title data-reactions-enabled=1 data-emit-metadata=0 data-theme=light data-lang=en crossorigin=anonymous async></script>
+</div>
+<noscript>Please enable JavaScript, or join the <a href=https://github.com/gunnarmorling/discussions.morling.dev/discussions/>discussion on GitHub</a>.</noscript>
+</div>
+<div class="footer wrapper">
+<nav class=nav>
+<div> © 2021 Oleksii Danyliuk | Licensed Under <a href=https://creativecommons.org/licenses/by-sa/4.0/>Creative Commons BY-SA 4.0</a></div>
+</nav>
+</div>
+<script>mediumZoom(document.querySelectorAll('div.imageblock > div.content > img'))</script>
+</body>
+</html>
