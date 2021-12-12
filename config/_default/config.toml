@@ -85,6 +85,11 @@ name = "Hackerrank"
 icon = "zap"
 url = "https://www.hackerrank.com/dos4dev"
 
+[[params.social]]
+name = "LindkedIn"
+icon = "lindkedin"
+url = "https://www.linkedin.com/in/oleksii-danyliuk-006679144"
+
 
 [[params.social]]
 name = "email"
