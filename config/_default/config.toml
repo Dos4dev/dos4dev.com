@@ -86,6 +86,11 @@ icon = "zap"
 url = "https://www.hackerrank.com/dos4dev"
 
 
+[[params.social]]
+name = "email"
+icon = "mail"
+url = "https://mail.google.com/mail/dos4dev@gmail.com" 	
+
 # Enable tags.
 # [taxonomies]
 # tag = "tags"
