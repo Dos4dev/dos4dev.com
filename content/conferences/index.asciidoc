@@ -1,0 +1,92 @@
+---
+title: "Conferences"
+date: 2021-12-04T10:01:00+02:00
+draft: false
+type: "page"
+---
+
+This page gives an overview over some talks I have done over the last years.
+I have spoken at large conferences such as QCon San Francisco, Devoxx and JavaOne, local meet-ups as well as company-internal events, covering topics such as Debezium and Change Data Capture, Bean Validation, NoSQL and more.
+
+If you'd like to have me as a speaker at your conference or meet-up, please get in touch.
+
+== 2021
+
+* DevNation Tech Talk (online): https://developers.redhat.com/devnation/tech-talks/java17-apis[To the Moon and Beyond With Java 17 APIs!]
+* Red Hat Summit Connect Developer Experience (online, German): https://www.redhat.com/de/summit/connect/emea/germany[Change Data Streaming Patterns für Verteilte Systeme]
+* Flink Forward (joint presentation with Hans-Peter Grahsl; online): https://www.flink-forward.org/global-2021/conference-program#change-data-streaming-patterns-in-distributed-systems[Change Data Streaming Patterns in Distributed Systems]
+* Voxxed Days Romania (joint presentation with Hans-Peter Grahsl; online): https://romania.voxxeddays.com/talk/?id=3318[Dissecting our Legacy: The Strangler Fig Pattern with Apache Kafka, Debezium and MongoDB]
+* P99 Conf (online): https://www.p99conf.io/[Continuous Performance Regression Testing with JfrUnit]
+* Accento (online): https://2021.accento.dev/talks/java-17-apis/[To the Moon and Beyond With Java 17 APIs!]; Panel https://2021.accento.dev/panels/java/[The Present and Future of Java (17)]
+* Heise betterCode() Java (online): https://java.bettercode.eu/veranstaltung-13495-se-0-die-wichtigsten-neuerungen-seit-java-11-deep-dive-3-mit-java-17-apis-zum-mond-und-weiter.html[Mit Java-17-APIs zum Mond und weiter]
+* Kafka Summit Americas (joint presentation with Hans-Peter Grahsl; online): https://www.kafka-summit.org/sessions/dissecting-our-legacy-the-strangler-fig-pattern-with-debezium-apache-kafka[Dissecting our Legacy: The Strangler Fig Pattern with Debezium, Apache Kafka & MongoDB]
+* Apache Pinot Meetup (joint presentation with Kenny Bastani; online): https://www.youtube.com/watch?v=yWFFOkWlLoY[Analyzing Real-time Order Deliveries using CDC with Debezium and Pinot]
+* MongoDB World (joint presentation with Hans-Peter Grahsl; online): https://speakerdeck.com/hpgrahsl/dissecting-our-legacy-the-strangler-fig-pattern-with-apache-kafka-debezium-and-mongodb-at-mongodb-dot-live-2021[Dissecting our Legacy: The Strangler Fig Pattern with Apache Kafka, Debezium and MongoDB]
+* jLove (joint presentation with Hans-Peter Grahsl; online): https://jlove.konfy.care/schedule.html[Change Data Streaming Patterns in Distributed Systems]
+* Berlin Buzzwords (joint presentation with Hans-Peter Grahsl; online): Change Data Streaming Patterns in Distributed Systems (https://www.youtube.com/watch?v=CLv2EcYnr2g[recording], https://speakerdeck.com/hpgrahsl/change-data-streaming-patterns-in-distributed-systems-at-berlinbuzzwords-2021[slides])
+* The Developer's Conference (joint presentation with Hans-Peter Grahsl; online): https://thedevconf.com/tdc/2021/connections/trilha-apis-e-microservices-internacional[Change Data Streaming Patterns in Distributed Systems ] (https://speakerdeck.com/hpgrahsl/change-data-streaming-patterns-in-distributed-systems-at-thedevconf-tdc-connections-2021[slides])
+* Kafka Summit Europe (joint presentation with Hans-Peter Grahsl; online): Advanced Change Data Streaming Patterns in Distributed Systems (https://www.confluent.io/events/kafka-summit-europe-2021/advanced-change-data-streaming-patterns-in-distributed-systems/[recording], https://speakerdeck.com/hpgrahsl/advanced-change-data-streaming-patterns-in-distributed-systems-at-kafka-summit-europe-2021[slides])
+* DevNation Tech Talk (online): Continuous performance regression testing with JfrUnit (https://www.youtube.com/watch?v=Lgr3orOi3sI[recording], https://speakerdeck.com/gunnarmorling/continuous-performance-regression-testing-with-jfrunit[slides])
+* Bordeaux JUG (joint presentation with Katja Aresti; online): https://www.youtube.com/watch?v=pXkM9tlxwHY[Don't fear outdated caches -- change data capture to the rescue! Let's discover Infinispan and Debezium]
+
+== 2020
+
+* JokerConf (online): https://jokerconf.com/en/2020/talks/4ycp4y8xshqmlt0kbpacwv/[Change data capture pipelines with Debezium and Kafka Streams]
+* Virtual JUG (joint presentation with Andres Almiray; online): Plug-in Architectures With Layrry and the Java Module System (https://www.youtube.com/watch?v=iJyys_LgG-U[recording], https://speakerdeck.com/gunnarmorling/plug-in-architectures-with-layrry-and-the-java-module-system-vjug[slides])
+* QConPlus (online): https://plus.qconferences.com/plus2020/presentation/serverless-search-my-blog-java-quarkus-aws-lambda[Serverless Search for My Blog With Java, Quarkus, & AWS Lambda]
+* JFall (joint presentation with Andres Almiray; online): https://jfall.nl/sessions/plug-in-architectures-for-java-with-layrry-and-the-java-module-system/[Plug-in Architectures for Java With Layrry and the Java Module System]
+* Java Day Istanbul (online): Change Data Streaming Use Cases With Apache Kafka & Debezium
+* Great International Developer Summit (online): https://wurreka.com/ict/virtual-conference/java/session/change-data-capture-pipelines-with-debezium-and-kafka-streams[Change Data Capture Pipelines with Debezium and Kafka Streams]
+* Kafka Summit (online): https://events.kafka-summit.org/2020-schedule[Change Data Capture Pipelines with Debezium and Kafka Streams]
+* Red Hat Summit Virtual Experience: https://summit.redhat.com/conference/sessions?p1=eyJzcGVha2VyIjpbXSwidGltZXNsb3QiOltdLCJkYXkiOltdLCJyb29tIjpbXSwibG9jYXRpb24iOltdLCJzb3J0b3JkZXIiOiJkYXRlIiwic3RhcnQiOiIiLCJmaW5pc2giOiIiLCJwYWdlbnVtYmVyIjoxLCJzaGFyZWlkIjoiIiwiY2F0ZWdvcmllcyI6e30sImtleXdvcmQiOiJEYXRhIGludGVncmF0aW9uIHBhdHRlcm5zIGZvciBtaWNyb3NlcnZpY2VzIHdpdGggRGViZXppdW0gYW5kIEFwYWNoZSBLYWZrYSJ9[Data integration patterns for microservices with Debezium and Apache Kafka]
+
+== 2019
+
+* Nordic Coding, Kiel: https://www.meetup.com/de-DE/Nordic-Coding/events/266257052/[Quarkus - Supersonic Subatomic Java]
+* Java User Group Paderborn: https://jug-pb.gitlab.io/blog/2019/change-data-capturing.html[Change Data Streaming Use Cases mit Debezium und Apache Kafka]
+* QCon San Francisco: https://qconsf.com/sf2019/presentation/modern-data-architectures[Practical Change Data Streaming Use Cases With Apache Kafka & Debezium]
+* JokerConf, St. Petersburg: https://2019.jokerconf.com/en/2019/talks/6nkqqv8zj4gmujxmo64ov3/[Practical change data streaming use cases with Apache Kafka and Debezium]
+* JavaZone, Oslo: https://2019.javazone.no/program/5d0b28fb-de0f-459a-9ffe-9b1c7f1423b1[Change Data Streaming For Microservices With Apache Kafka and Debezium]
+* MicroXchg, Berlin: http://microxchg.io/2019/[Change Data Streaming Patterns For Microservices With Debezium]
+* JavaLand, Brühl
+  - https://programm.javaland.eu/2019/\#/scheduledEvent/569883[Change Data Streaming für Microservices mit Debezium]
+  - https://programm.javaland.eu/2019/#/scheduledEvent/575382[Das Annotation Processing API - Use Cases und Best Practices]
+* RivieraDev, Sophia Antipolis: https://2019.rivieradev.fr/session/540[Practical Change Data Streaming Use Cases With Apache Kafka and Debezium]
+* Kafka Summit London: https://kafka-summit.org/sessions/change-data-streaming-patterns-microservices-debezium-2/[Change Data Streaming Patterns For Microservices With Debezium]
+* Red Hat Summit, Boston
+  - https://www.redhat.com/en/summit/about/session-archives[Bridging microservice boundaries with Apache Kafka and Debezium] (hands-on lab)
+  - https://www.redhat.com/en/summit/about/session-archives[Change data streaming patterns for microservices with Debezium]
+* Red Hat Modern Integration and Application Development Day, Milano: https://www.redhat.com/en/events/modern-integration-and-application-development-day-milano-2019[Data Strategies for Microservices: Change Data Capture with Debezium]
+
+== 2018
+
+* Devoxx Morocco, Marrakesh
+  - https://cfp2018.devoxx.ma/2018/talk/AEY-4477/Change_Data_Streaming_Patterns_for_Microservices_With_Debezium[Change Data Streaming Patterns for Microservices With Debezium]
+  - https://cfp2018.devoxx.ma/2018/talk/DVH-9906/Map_me_if_you_can!_Painless_bean_mappings_with_MapStruct[Map me if you can! Painless bean mappings with MapStruct]
+* Kafka Summit San Francisco: https://kafka-summit.org/sessions/change-data-streaming-patterns-microservices-debezium/[Change Data Streaming Patterns for Microservices With Debezium]
+* VoxxedDays Microservices Paris: https://voxxeddays.com/microservices/2018/06/14/gunnar-morling-on-data-streaming-with-debezium/[Data Streaming for Microservices using Debezium]
+* JUG Saxony Day, Dresden: https://www.jugsaxonyday.org/2018/wp-content/uploads/JSD2018_Programm.pdf[Streaming von Datenbankänderungen mit Debezium]
+* Java User Group Darmstadt: https://www.jug-da.de/2018/07/Debezium/[Streaming von Datenbankänderungen mit Debezium]
+* JavaLand, Brühl: https://programm.javaland.eu/2018/\#/scheduledEvent/549274[Hibernate - State of the Union]; https://programm.javaland.eu/2018/#/scheduledEvent/549321[Migrating to Java 9 Modules with ModiTect]
+* RivieraDev, Sophia Antipolis: https://2018.rivieradev.fr/session/360[Data Streaming for Microservices using Debezium]
+* Red Hat Summit, San Francisco: Running data-streaming applications with Kafka on OpenShift (hands-on lab)
+* Java User Group Münster, https://www.jug-muenster.de/streaming-von-datenbankaenderungen-mit-debezium-21-3-2018-1517/[Streaming von Datenbankänderungen mit Debezium]
+
+== 2017
+
+* JavaZone, Oslo: https://2017.javazone.no/program/c96ca4909bdb42eba546accfd0f21a8c[Keeping Your Data Sane with Bean Validation 2.0]
+* JavaOne, San Francisco
+  - Keeping Your Data Sane with Bean Validation 2.0
+  - NoSQL? Have it Your Way!
+* Devoxx Belgium, Antwerp
+  - Streaming Database Changes with Debezium
+  - Short talks on Bean Validation 2.0 and MapStruct
+* jdk.io, Copenhagen: https://jdk.io/jdk-io-2017/talks/188-keeping-your-data-sane-with-bean-validation-2[Keeping Your Data Sane with Bean Validation 2.0]
+* RivieraDev, Sophia Antipolis: Keeping Your Data Sane with Bean Validation 2.0
+* JavaLand, Brühl
+  - Bean Validation 2.0
+  - Hibernate Search and Elasticsearch
+
+== 2016
+
+* JavaZone, Oslo: https://vimeo.com/groups/jz2016/videos/181788146[From Hibernate to Elasticsearch in no time]
