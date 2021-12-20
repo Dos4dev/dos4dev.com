@@ -1,0 +1,49 @@
+---
+title: "Address of the new company registration."
+date: 2021-12-21T10:00:00+01:00
+draft: true
+---
+:source-highlighter: rouge
+:rouge-style: base16.dark
+:icons: font
+:imagesdir: /images
+ifdef::env-github[]
+:imagesdir: ../../static/images
+endif::[]
+
+
+
+
+
+Address is a significant part of the request of the new company registration request.
+This part has lot's of local details that is why I decided to create this document.
+
+Here you can see a address part of the request. 
+```
+ <test:address>
+                // location
+                <test:asukoht>Lõõtsa tn 2a</test:asukoht>
+                // ehak has to reference a specific part of Tallinn. The code has to match 4 digits 
+                // from the ’koodaadress’ at 6-9 positions.
+                <test:ehak>0387</test:ehak>
+                <test:riik>EST</test:riik>//country
+                <test:postiindeks>11415</test:postiindeks>//postal index
+                <test:adob_id>6439896</test:adob_id>//N/A
+                // ADR_IDs is a identifier of a version of the address
+                // Many address objects can carry the same address 
+                // and one address object can carry many addresses (ADR_IDs, it has parallel-addresses)
+                <test:adr_id>3426817</test:adr_id>
+                <test:ads_oid>ME00646122</test:ads_oid>// ??
+                // code address, where all the component codes, of which the address consists of are 
+                // brought out.
+                <test:koodaadress>377840387000004HU0000C04Y00000000</test:koodaadress>
+                <test:taisaadress>
+                    Harju maakond, Tallinn, Lasnamäe linnaosa, Lõõtsa tn 2a
+                </test:taisaadress>// full address
+</test:address> 
+```
+
+https://geoportaal.maaamet.ee/docs/aadress/Estonian_Address_Data_System_overview.pdf[`Estonian Address Data System`] (ADS) is responsible for providing necessary data. 
+
+N.B.
+The same fields are used both to indicate the address of the future company and to indicate the address of the founder. 
