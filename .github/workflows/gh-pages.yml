@@ -14,7 +14,7 @@ jobs:
           submodules: true
 
       - name: Echo current job
-        run: echo gh-page
+        run: echo gh-page test
 
       - name: Install Ruby Dev
         run: sudo apt-get install ruby-dev
