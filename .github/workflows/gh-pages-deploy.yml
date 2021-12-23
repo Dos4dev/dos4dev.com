@@ -13,6 +13,9 @@ jobs:
       with:
         submodules: true
 
+    - name: Echo current job
+      run: echo gh-page-deply
+
     - name: Install Ruby Dev
       run: sudo apt-get install ruby-dev
 
