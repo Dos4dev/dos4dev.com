@@ -17,7 +17,7 @@ jobs:
       run: sudo apt-get install ruby-dev
 
     - name: Install AsciiDoctor and Rouge
-      run: sudo gem install asciidoctor rouge
+      run: sudo gem install asciidoctor
 
     - name: Setup Hugo                           
       uses: peaceiris/actions-hugo@v2
