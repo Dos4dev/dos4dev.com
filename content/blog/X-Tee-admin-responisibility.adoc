@@ -1,0 +1,32 @@
+---
+title: "X-Tee system admin responsibility."
+date: 2022-01-05T10:00:00+01:00
+draft: false
+---
+:source-highlighter: rouge
+:rouge-style: base16.dark
+:icons: font
+:imagesdir: /images
+ifdef::env-github[]
+:imagesdir: ../../static/images
+endif::[]
+
+
+https://docs.x-road.global/Manuals/ug-ss_x-road_6_security_server_user_guide.html#21-user-roles[System admin] is important role in X-Road system.
+There a few documents contain information about system admin responsobility:
+
+. An official https://abi.ria.ee/xtee/files/en/12091395/19333123/1/1614085296736/The_data_exchange_layer_of_information_systems_regulation.pdf[statute].
+. X-Road https://docs.x-road.global/[documentation].
+. Agreement between security server owner and https://www.ria.ee[RIA]
+
+
+
+To make it clearer I created a list of responsibilities:
+
+. https://dos4dev.gitlab.io/xroad-docs/x-road-legislation/1.0.0/x-tee-act.html#_5_8_3_1_ensure_the_existence_of_message_logs_of_the_eseal_verified_messages_exchanged_through_x_tee_and_in_the_event_of_archiving_the_message_log_develop_the_procedure_for_archiving_the_message_log_which_shall_include_the_frequency_of_archiving_and_the_list_of_archived_information[Archive the message log]. The agreement with RIA is more precise about it.
+. Setup the https://dos4dev.gitlab.io/xroad-docs/x-road-legislation/1.0.0/x-tee-act.html#_5_8_3_2_appoint_persons_who_shall_be_granted_access_to_the_archived_message_log_of_the_security_server_in_the_event_of_archiving_of_the_message_log_and_specify_the_terms_and_conditions_of_access[granted access] policy rules.
+. Ensute the https://dos4dev.gitlab.io/xroad-docs/x-road-legislation/1.0.0/x-tee-act.html#_5_8_3_3_upon_archiving_message_logs_ensure_following_of_the_same_confidentiality_requirements_in_processing_of_archived_messages_that_are_required_for_using_the_dataservice[execution] of the requirements.
+. https://dos4dev.gitlab.io/xroad-docs/x-road-legislation/1.0.0/x-tee-act.html#_5_8_3_4_host_the_security_servers_on_the_territory_under_the_jurisdiction_of_the_republic_of_estonia[Host servers in Estonia].
+. https://dos4dev.gitlab.io/xroad-docs/x-road-legislation/1.0.0/x-tee-act.html#_5_8_4_2_update_the_software_of_the_security_server_no_later_than_two_months_after_the_centre_has_made_a_software_update_available[Update the software]
+. https://docs.x-road.global/Manuals/ug-ss_x-road_6_security_server_user_guide.html#84-deleting-a-local-group[Setup the communication with the Client Information Systems]
+. https://docs.x-road.global/Manuals/ig-ss_x-road_v6_security_server_installation_guide.html#22-reference-data[Manage the accessability of the ports and firewall configuration].
