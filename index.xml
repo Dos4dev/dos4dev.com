@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2021 Oleksii Danyliuk</copyright>
-    <lastBuildDate>Sat, 11 Dec 2021 10:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jan 2022 10:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://www.dos4dev.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>X-Tee system admin responsibility.</title>
+      <link>https://www.dos4dev.com/blog/x-tee-admin-responisibility/</link>
+      <pubDate>Wed, 05 Jan 2022 10:00:00 +0100</pubDate>
+      
+      <guid>https://www.dos4dev.com/blog/x-tee-admin-responisibility/</guid>
+      <description>System admin is important role in X-Road system. There a few documents contain information about system admin responsobility:
+  An official statute.
+  X-Road documentation.
+  Agreement between security server owner and RIA
+   To make it clearer I created a list of responsibilities:
+  Archive the message log. The agreement with RIA is more precise about it.
+  Setup the granted access policy rules.</description>
+    </item>
     
     <item>
       <title>X-Tee test request.</title>

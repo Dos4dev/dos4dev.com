@@ -2,16 +2,28 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Blogs - Oleksii Danyliuk</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="alternate" type="application/rss+xml" href="https://www.dos4dev.com/blog/index.xml" title="Oleksii Danyliuk" />
-	<meta property="og:title" content="Blogs" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.dos4dev.com/blog/" />
-<meta property="og:updated_time" content="2022-01-05T10:00:00+01:00" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>X-Tee system admin responsibility. - Oleksii Danyliuk</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="X-Tee system admin responsibility." />
+<meta property="og:description" content="System admin is important role in X-Road system. There a few documents contain information about system admin responsobility:
+  An official statute.
+  X-Road documentation.
+  Agreement between security server owner and RIA
+   To make it clearer I created a list of responsibilities:
+  Archive the message log. The agreement with RIA is more precise about it.
+  Setup the granted access policy rules." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.dos4dev.com/blog/x-tee-admin-responisibility/" />
+<meta property="article:published_time" content="2022-01-05T10:00:00+01:00" />
+<meta property="article:modified_time" content="2022-01-05T10:00:00+01:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Blogs"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="X-Tee system admin responsibility."/>
+<meta name="twitter:description" content="System admin is important role in X-Road system. There a few documents contain information about system admin responsobility:
+  An official statute.
+  X-Road documentation.
+  Agreement between security server owner and RIA
+   To make it clearer I created a list of responsibilities:
+  Archive the message log. The agreement with RIA is more precise about it.
+  Setup the granted access policy rules."/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
  
@@ -39,9 +51,8 @@
 	</noscript>
 </head>
 
-
 <body>
-	<div class="container wrapper list">
+	<div class="container wrapper post">
 		<div class="header desktop">
 
 	<div class="row">
@@ -213,20 +224,69 @@
 </script>
 
 
-
 		<div id = "main-content">
-			
-				<h1 class="page-title">All articles</h1>
-			
+			<div class="post-header">
+				<h1 class="title">X-Tee system admin responsibility.</h1>
+				<div class="meta">Posted at Jan 5, 2022</div>
+			</div>
 
-			<ul class="posts"><li class="post">
-					<a href="/blog/x-tee-admin-responisibility/">X-Tee system admin responsibility.</a> <span class="meta">Jan 5, 2022</span>
-				</li><li class="post">
-					<a href="/blog/x-tee-test-request/">X-Tee test request.</a> <span class="meta">Dec 11, 2021</span>
-				</li></ul>
+			<div class="markdown">
+				<div class="paragraph">
+<p><a href="https://docs.x-road.global/Manuals/ug-ss_x-road_6_security_server_user_guide.html#21-user-roles">System admin</a> is important role in X-Road system.
+There a few documents contain information about system admin responsobility:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>An official <a href="https://abi.ria.ee/xtee/files/en/12091395/19333123/1/1614085296736/The_data_exchange_layer_of_information_systems_regulation.pdf">statute</a>.</p>
+</li>
+<li>
+<p>X-Road <a href="https://docs.x-road.global/">documentation</a>.</p>
+</li>
+<li>
+<p>Agreement between security server owner and <a href="https://www.ria.ee">RIA</a></p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>To make it clearer I created a list of responsibilities:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="https://dos4dev.gitlab.io/xroad-docs/x-road-legislation/1.0.0/x-tee-act.html#_5_8_3_1_ensure_the_existence_of_message_logs_of_the_eseal_verified_messages_exchanged_through_x_tee_and_in_the_event_of_archiving_the_message_log_develop_the_procedure_for_archiving_the_message_log_which_shall_include_the_frequency_of_archiving_and_the_list_of_archived_information">Archive the message log</a>. The agreement with RIA is more precise about it.</p>
+</li>
+<li>
+<p>Setup the <a href="https://dos4dev.gitlab.io/xroad-docs/x-road-legislation/1.0.0/x-tee-act.html#_5_8_3_2_appoint_persons_who_shall_be_granted_access_to_the_archived_message_log_of_the_security_server_in_the_event_of_archiving_of_the_message_log_and_specify_the_terms_and_conditions_of_access">granted access</a> policy rules.</p>
+</li>
+<li>
+<p>Ensute the <a href="https://dos4dev.gitlab.io/xroad-docs/x-road-legislation/1.0.0/x-tee-act.html#_5_8_3_3_upon_archiving_message_logs_ensure_following_of_the_same_confidentiality_requirements_in_processing_of_archived_messages_that_are_required_for_using_the_dataservice">execution</a> of the requirements.</p>
+</li>
+<li>
+<p><a href="https://dos4dev.gitlab.io/xroad-docs/x-road-legislation/1.0.0/x-tee-act.html#_5_8_3_4_host_the_security_servers_on_the_territory_under_the_jurisdiction_of_the_republic_of_estonia">Host servers in Estonia</a>.</p>
+</li>
+<li>
+<p><a href="https://dos4dev.gitlab.io/xroad-docs/x-road-legislation/1.0.0/x-tee-act.html#_5_8_4_2_update_the_software_of_the_security_server_no_later_than_two_months_after_the_centre_has_made_a_software_update_available">Update the software</a></p>
+</li>
+<li>
+<p><a href="https://docs.x-road.global/Manuals/ug-ss_x-road_6_security_server_user_guide.html#84-deleting-a-local-group">Setup the communication with the Client Information Systems</a></p>
+</li>
+<li>
+<p><a href="https://docs.x-road.global/Manuals/ig-ss_x-road_v6_security_server_installation_guide.html#22-reference-data">Manage the accessability of the ports and firewall configuration</a>.</p>
+</li>
+</ol>
+</div>
+
+			</div>
+
+			<div class="post-tags">
+				
+					
+				
+			</div>
 		</div>
-	</div>
 
+</div>
 	<div class="footer wrapper">
 	<nav class="nav">
 		<div> © 2021 Oleksii Danyliuk |  Licensed Under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA 4.0</a></div>
@@ -238,5 +298,4 @@
 </script>
 
 </body>
-
 </html>
