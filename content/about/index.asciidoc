@@ -5,6 +5,4 @@ draft: false
 type: "page"
 ---
 
-I am a web developer, with a passion for a digital society. Society, where you have to take care of your ID card, phone, laptop and that’s it. 
-I am a committer to https://github.com/nordic-institute/X-Road[`X-Road`] project, the core of the digital society. 
-Occasionally, I link:/blog[blog] about topics related to my passion.
+I am a web developer with a passion for the digital society. The principle of https://en.wikipedia.org/wiki/Once-only_principle[`only once`] is the basis of E-Government, it means that people provide information only once, and it will be properly stored and reused instead of being re-provided. https://github.com/nordic-institute/X-Road[`X-Road`] is one implementation of this principle. I link:/blog[blog] about it from time to time.
