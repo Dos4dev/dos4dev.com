@@ -23,3 +23,4 @@ In order to deploy to GitHub pages manually, commit all changes, then run:
 ## Credits
 
 The material was originally created by Gunnar Morling (https://github.com/gunnarmorling) and forked from https://github.com/gunnarmorling/morling.dev
+
